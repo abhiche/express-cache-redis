@@ -216,6 +216,23 @@ app.get('/index.html',
 
 You can also specify
 
+# Encryption
+
+By default, the data stored in redis is not encrypted.
+In order to enable encrytion, encryption option has to be set in cache.route.
+
+```js
+app.use(
+  cache.route({
+    encrypt: {
+      key: 'your_secret'
+    }
+  })
+);
+```
+
+At present, the encryption algorithm is locked to `aes192`
+
 # Content Type
 
 You can use `express-redis-cache` to cache HTML pages, CSS stylesheets, JSON objects, anything really. Content-types are saved along the cache body and are retrieved using `res._headers['content-type']`. If you want to overwrite that, you can pass a custom type.
