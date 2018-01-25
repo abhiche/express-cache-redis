@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rv-kip/express-redis-cache.git"
+    "url": "https://github.com/abhiche/express-cache-redis.git"
   },
   "keywords": [
     "express",
@@ -24,8 +24,8 @@
     "redis cache"
   ],
   "author": {
-    "name": "Francois Vespa",
-    "url": "https://github.com/co2-git"
+    "name": "Abhilash Chelankara",
+    "url": "https://github.com/abhiche"
   },
   "contributors": [
     {
