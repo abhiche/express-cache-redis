@@ -13,6 +13,16 @@
     "type": "git",
     "url": "https://github.com/rv-kip/express-redis-cache.git"
   },
+  "keywords": [
+    "express",
+    "redis",
+    "cache",
+    "middleware",
+    "encrypt",
+    "encryption",
+    "express cache",
+    "redis cache"
+  ],
   "author": {
     "name": "Francois Vespa",
     "url": "https://github.com/co2-git"
